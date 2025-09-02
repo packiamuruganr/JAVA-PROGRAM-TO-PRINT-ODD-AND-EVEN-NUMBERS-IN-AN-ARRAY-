@@ -57,10 +57,41 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+```
+package evenor;
+
+public class odd {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22};
+
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println();
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
+```
+
 
 ## OUTPUT:
+<img width="1906" height="1079" alt="image" src="https://github.com/user-attachments/assets/a8530708-306e-4161-af70-1078a4bd722a" />
+
 
 
 
 
 ## RESULT:
+Thus To print odd and even numbers using Java programming language.
+
+
